@@ -1,0 +1,27 @@
+[project]
+name = "fcp-mcp"
+version = "0.1.0"
+description = "MCP server for Final Cut Pro on macOS: read libraries, build and read FCPXML timelines, drive the app"
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Abdul Fatir Aziz" }]
+keywords = ["mcp", "final-cut-pro", "fcpxml", "video-editing", "claude", "macos"]
+classifiers = ["Operating System :: MacOS", "Programming Language :: Python :: 3", "Topic :: Multimedia :: Video :: Non-Linear Editor"]
+requires-python = ">=3.11"
+dependencies = ["mcp>=2.3,<3"]
+
+[project.urls]
+Repository = "https://github.com/abdulfatiraziz/fcp-mcp"
+
+[project.scripts]
+fcp-mcp = "fcp_mcp.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fcp_mcp"]
+
+[dependency-groups]
+dev = ["pytest>=8"]
