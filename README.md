@@ -147,6 +147,27 @@ It then waits until the project shows up. Without Accessibility, you pick the li
 
 ---
 
+## Vlog effects skill (Claude Code)
+
+`skills/cutout-match-transition/` is a Claude Code skill that uses fcp-mcp to build editorial effects as editable Final Cut timelines:
+
+- **Cutout match transition:** before a cut, the next shot's hero element (a neon sign, a tower, a person) appears in the current shot, truly masked, at its exact next-shot position. It flickers on and stays locked through the cut.
+- **More effects:** signs glowing on letter by letter, type-on onto the sky, a red block-grid transition, white silhouettes, glints and a letterbox.
+- **Masks:** brightness keys for lit elements, and macOS Vision subject lifting for people and objects.
+- **Sound:** sound effects made in code to match each effect, plus a free recorded library (Mixkit, Freesound CC0).
+- **Creative mode:** invent new effects from your own footage, with no reference reel.
+- **Previews:** quick MP4 previews and a frame-lock check without opening Final Cut.
+
+Install it by linking the folder into your skills:
+
+```bash
+ln -s "$PWD/skills/cutout-match-transition" ~/.claude/skills/cutout-match-transition
+swiftc -O -swift-version 5 -o skills/cutout-match-transition/scripts/bin/subject_matte \
+  skills/cutout-match-transition/scripts/subject_matte.swift
+```
+
+Then ask Claude for "a cutout match transition between these clips" or "be creative with my vlog". The specs in `examples/` use `/path/to/...` placeholders: point them at your own media.
+
 ## Development
 
 ```bash

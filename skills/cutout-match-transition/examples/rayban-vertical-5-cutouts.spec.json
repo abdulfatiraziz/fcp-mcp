@@ -1,0 +1,532 @@
+{
+ "project_name": "Keep Killing It Rayban",
+ "event_name": "Rayban reel",
+ "width": 1080,
+ "height": 1920,
+ "fps": 23.976,
+ "primary": [
+  {
+   "path": "/path/to/projects/Keep Killing It Rayban/broll/01-cafe-entrance.mp4",
+   "duration": "58058/24000s",
+   "source_in": "60/30s",
+   "conform": "fill"
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It Rayban/broll/02-menu.mp4",
+   "duration": "37037/24000s",
+   "source_in": "102/30s",
+   "conform": "fill"
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It Rayban/broll/03-barista.mp4",
+   "duration": "64064/24000s",
+   "source_in": "75/30s",
+   "conform": "fill"
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It Rayban/broll/04-suit-selfie.mp4",
+   "duration": "59059/24000s",
+   "source_in": "75/30s",
+   "conform": "fill"
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It Rayban/broll/05-driving.mp4",
+   "duration": "7007/24000s",
+   "source_in": "30/30s",
+   "conform": "fill"
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It Rayban/broll/06-metro-platform.mp4",
+   "duration": "7007/24000s",
+   "source_in": "30/30s",
+   "conform": "fill"
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It Rayban/broll/07-metro-train.mp4",
+   "duration": "7007/24000s",
+   "source_in": "30/30s",
+   "conform": "fill"
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It Rayban/broll/08-laptop.mp4",
+   "duration": "21021/24000s",
+   "source_in": "30/30s",
+   "conform": "fill"
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It Rayban/broll/09-street-day.mp4",
+   "duration": "7007/24000s",
+   "source_in": "30/30s",
+   "conform": "fill"
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It Rayban/broll/10-food-court-night.mp4",
+   "duration": "7007/24000s",
+   "source_in": "30/30s",
+   "conform": "fill"
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It Rayban/broll/11-scooter-night.mp4",
+   "duration": "25025/24000s",
+   "source_in": "330330/30000s",
+   "conform": "fill"
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It Rayban/broll/12-plane-night.mp4",
+   "duration": "7007/24000s",
+   "source_in": "78/30s",
+   "conform": "fill"
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It Rayban/broll/13-mirror-man.mp4",
+   "duration": "7007/24000s",
+   "source_in": "45/30s",
+   "conform": "fill"
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It Rayban/broll/11-scooter-night.mp4",
+   "duration": "19019/24000s",
+   "source_in": "378378/30000s",
+   "conform": "fill"
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It Rayban/broll/15-polo-friend.mp4",
+   "duration": "39039/24000s",
+   "source_in": "96/30s",
+   "conform": "fill"
+  },
+  {
+   "duration": "7007/24000s",
+   "name": "Black"
+  }
+ ],
+ "connected": [
+  {
+   "path": "/path/to/projects/Keep Killing It Rayban/music/reference-music.wav",
+   "at": 0,
+   "lane": -1,
+   "audio_role": "music"
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It Rayban/broll/02-menu CUTOUT.mov",
+   "name": "Cutout: menu (Vision)",
+   "at": "38038/24000s",
+   "duration": "20020/24000s",
+   "lane": 1,
+   "source_in": "7/30s",
+   "conform": "fill",
+   "adjust": {
+    "crop": {
+     "x0": 0,
+     "y0": 0,
+     "x1": 1,
+     "y1": 1
+    },
+    "hold": [
+     "crop",
+     "opacity"
+    ],
+    "keyframes": [
+     {
+      "time": "0/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0.75,
+       "x1": 1,
+       "y1": 1
+      },
+      "opacity": 1
+     },
+     {
+      "time": "1001/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0.5,
+       "x1": 1,
+       "y1": 1
+      },
+      "opacity": 0
+     },
+     {
+      "time": "2002/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0.25,
+       "x1": 1,
+       "y1": 1
+      },
+      "opacity": 0.8
+     },
+     {
+      "time": "3003/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0.0,
+       "x1": 1,
+       "y1": 1
+      },
+      "opacity": 0
+     },
+     {
+      "time": "4004/24000s",
+      "opacity": 1
+     },
+     {
+      "time": "9009/24000s",
+      "opacity": 0.4
+     },
+     {
+      "time": "10010/24000s",
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It Rayban/broll/03-barista CUTOUT.mov",
+   "name": "Cutout: barista (Vision)",
+   "at": "79079/24000s",
+   "duration": "16016/24000s",
+   "lane": 1,
+   "source_in": "5/30s",
+   "conform": "fill",
+   "adjust": {
+    "crop": {
+     "x0": 0,
+     "y0": 0,
+     "x1": 0.58,
+     "y1": 1
+    },
+    "hold": [
+     "crop",
+     "opacity"
+    ],
+    "keyframes": [
+     {
+      "time": "0/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0.75,
+       "x1": 0.58,
+       "y1": 1
+      },
+      "opacity": 1
+     },
+     {
+      "time": "1001/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0.5,
+       "x1": 0.58,
+       "y1": 1
+      },
+      "opacity": 0
+     },
+     {
+      "time": "2002/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0.25,
+       "x1": 0.58,
+       "y1": 1
+      },
+      "opacity": 0.8
+     },
+     {
+      "time": "3003/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0.0,
+       "x1": 0.58,
+       "y1": 1
+      },
+      "opacity": 0
+     },
+     {
+      "time": "4004/24000s",
+      "opacity": 1
+     },
+     {
+      "time": "9009/24000s",
+      "opacity": 0.4
+     },
+     {
+      "time": "10010/24000s",
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It Rayban/broll/04-suit-selfie CUTOUT.mov",
+   "name": "Cutout: suit selfie (Vision)",
+   "at": "139139/24000s",
+   "duration": "20020/24000s",
+   "lane": 1,
+   "source_in": "5/30s",
+   "conform": "fill",
+   "adjust": {
+    "crop": {
+     "x0": 0,
+     "y0": 0,
+     "x1": 1,
+     "y1": 1
+    },
+    "hold": [
+     "crop",
+     "opacity"
+    ],
+    "keyframes": [
+     {
+      "time": "0/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0.75,
+       "x1": 1,
+       "y1": 1
+      },
+      "opacity": 1
+     },
+     {
+      "time": "1001/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0.5,
+       "x1": 1,
+       "y1": 1
+      },
+      "opacity": 0
+     },
+     {
+      "time": "2002/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0.25,
+       "x1": 1,
+       "y1": 1
+      },
+      "opacity": 0.8
+     },
+     {
+      "time": "3003/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0.0,
+       "x1": 1,
+       "y1": 1
+      },
+      "opacity": 0
+     },
+     {
+      "time": "4004/24000s",
+      "opacity": 1
+     },
+     {
+      "time": "9009/24000s",
+      "opacity": 0.4
+     },
+     {
+      "time": "10010/24000s",
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It Rayban/broll/12-plane-night PLANE matte.mov",
+   "name": "Cutout: plane (keyed)",
+   "at": "283283/24000s",
+   "duration": "16016/24000s",
+   "lane": 1,
+   "source_in": "58/30s",
+   "conform": "fill",
+   "adjust": {
+    "crop": {
+     "x0": 0.0,
+     "y0": 0.04,
+     "x1": 0.9,
+     "y1": 0.6
+    },
+    "hold": [
+     "crop",
+     "opacity"
+    ],
+    "keyframes": [
+     {
+      "time": "0/24000s",
+      "crop": {
+       "x0": 0.0,
+       "y0": 0.5066666666666666,
+       "x1": 0.9,
+       "y1": 0.6
+      },
+      "opacity": 1
+     },
+     {
+      "time": "1001/24000s",
+      "crop": {
+       "x0": 0.0,
+       "y0": 0.41333333333333333,
+       "x1": 0.9,
+       "y1": 0.6
+      }
+     },
+     {
+      "time": "2002/24000s",
+      "crop": {
+       "x0": 0.0,
+       "y0": 0.32,
+       "x1": 0.9,
+       "y1": 0.6
+      }
+     },
+     {
+      "time": "3003/24000s",
+      "crop": {
+       "x0": 0.0,
+       "y0": 0.22666666666666668,
+       "x1": 0.9,
+       "y1": 0.6
+      }
+     },
+     {
+      "time": "4004/24000s",
+      "crop": {
+       "x0": 0.0,
+       "y0": 0.13333333333333336,
+       "x1": 0.9,
+       "y1": 0.6
+      }
+     },
+     {
+      "time": "5005/24000s",
+      "crop": {
+       "x0": 0.0,
+       "y0": 0.040000000000000036,
+       "x1": 0.9,
+       "y1": 0.6
+      }
+     },
+     {
+      "time": "7007/24000s",
+      "opacity": 0.2
+     },
+     {
+      "time": "8008/24000s",
+      "opacity": 1
+     },
+     {
+      "time": "11011/24000s",
+      "opacity": 0.5
+     },
+     {
+      "time": "12012/24000s",
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It Rayban/broll/15-polo-friend CUTOUT.mov",
+   "name": "Cutout: friend (Vision)",
+   "at": "316316/24000s",
+   "duration": "16016/24000s",
+   "lane": 1,
+   "source_in": "6/30s",
+   "conform": "fill",
+   "adjust": {
+    "crop": {
+     "x0": 0,
+     "y0": 0,
+     "x1": 1,
+     "y1": 1
+    },
+    "hold": [
+     "crop",
+     "opacity"
+    ],
+    "keyframes": [
+     {
+      "time": "0/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0.75,
+       "x1": 1,
+       "y1": 1
+      },
+      "opacity": 1
+     },
+     {
+      "time": "1001/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0.5,
+       "x1": 1,
+       "y1": 1
+      },
+      "opacity": 0
+     },
+     {
+      "time": "2002/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0.25,
+       "x1": 1,
+       "y1": 1
+      },
+      "opacity": 0.8
+     },
+     {
+      "time": "3003/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0.0,
+       "x1": 1,
+       "y1": 1
+      },
+      "opacity": 0
+     },
+     {
+      "time": "4004/24000s",
+      "opacity": 1
+     },
+     {
+      "time": "9009/24000s",
+      "opacity": 0.4
+     },
+     {
+      "time": "10010/24000s",
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "text": "YOURE A WINNER.",
+   "at": "42042/24000s",
+   "duration": "135135/24000s",
+   "lane": 4,
+   "style": {
+    "font": "Helvetica Neue",
+    "font_face": "Bold",
+    "font_size": 44,
+    "color": "#FFFFFF"
+   }
+  },
+  {
+   "text": "KEEP KILLING IT.",
+   "at": "177177/24000s",
+   "duration": "201201/24000s",
+   "lane": 4,
+   "style": {
+    "font": "Helvetica Neue",
+    "font_face": "Bold",
+    "font_size": 44,
+    "color": "#FFFFFF"
+   }
+  }
+ ],
+ "library": "/path/to/projects/Keep Killing It/Keep Killing It.fcpbundle",
+ "output_path": "/path/to/projects/Keep Killing It Rayban/Keep Killing It Rayban.fcpxml",
+ "import_into_fcp": false
+}

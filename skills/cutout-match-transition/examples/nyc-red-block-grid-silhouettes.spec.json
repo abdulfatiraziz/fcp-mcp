@@ -1,0 +1,216 @@
+{
+ "project_name": "NYC Red Blocks",
+ "event_name": "NYC effects",
+ "width": 1920,
+ "height": 1080,
+ "fps": 24,
+ "primary": [
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/01-man-back.mp4",
+   "duration": "95/24s",
+   "source_in": "12012/24000s"
+  },
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/02-woman-sunlit-street.mp4",
+   "duration": "48/24s",
+   "source_in": 3.0
+  },
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/03-one-wtc-up.mp4",
+   "duration": "11/24s",
+   "source_in": 4.0
+  },
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/04-grand-central-travelers.mp4",
+   "duration": "5/24s",
+   "source_in": 2.0
+  },
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/05-times-square-taxis.mp4",
+   "duration": "5/24s",
+   "source_in": 4.0
+  },
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/06-grand-central-lobby.mp4",
+   "duration": "5/24s",
+   "source_in": 8.0
+  },
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/07-boats-brooklyn-bridge.mp4",
+   "duration": "5/24s",
+   "source_in": 4.0
+  },
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/08-traffic-light-taxi.mp4",
+   "duration": "5/24s",
+   "source_in": 12.0
+  },
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/09-times-square-up.mp4",
+   "duration": "5/24s",
+   "source_in": 2.0
+  },
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/10-statue-sky.mp4",
+   "duration": "17/24s",
+   "source_in": 4.0
+  },
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/11-cannon-skyline.mp4",
+   "duration": "83/24s",
+   "source_in": "60060/30000s"
+  },
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/12-street-musicians.mp4",
+   "duration": "16/24s",
+   "source_in": 3.0
+  },
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/13-crosswalk-above.mp4",
+   "duration": "30/24s",
+   "source_in": 1.5
+  },
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/14-brooklyn-bridge-walk.mp4",
+   "duration": "24/24s",
+   "source_in": 0.5
+  },
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/15-sunset-silhouette.mp4",
+   "duration": "24/24s",
+   "source_in": 6.0
+  },
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/16-looking-across-nyc.mp4",
+   "duration": "12/24s",
+   "source_in": 3.0
+  },
+  {
+   "duration": "17/24s",
+   "name": "Black tail"
+  }
+ ],
+ "connected": [
+  {
+   "path": "/path/to/projects/NYC Red Blocks/music/reference-music.wav",
+   "at": 0,
+   "lane": -1,
+   "audio_role": "music"
+  },
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/RED BLOCKS grid.mov",
+   "name": "Red block grid",
+   "at": "16/24s",
+   "duration": "122/24s",
+   "lane": 1,
+   "source_in": 0
+  },
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/01-man-back PERSON cutout f30.mov",
+   "name": "Cutout: man (Vision)",
+   "at": "18/24s",
+   "duration": "75/24s",
+   "lane": 2,
+   "source_in": 0
+  },
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/02-woman-sunlit-street WHITE silhouette f90.mov",
+   "name": "Silhouette: woman (Vision)",
+   "at": "96/24s",
+   "duration": "42/24s",
+   "lane": 3,
+   "source_in": "1/30s",
+   "adjust": {
+    "hold": [
+     "opacity"
+    ],
+    "keyframes": [
+     {
+      "time": "0/24s",
+      "opacity": 1
+     },
+     {
+      "time": "4/24s",
+      "opacity": 0
+     },
+     {
+      "time": "12/24s",
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/11-cannon-skyline.mp4",
+   "name": "Window: cannon shot inset",
+   "at": "189/24s",
+   "duration": "12/24s",
+   "lane": 1,
+   "source_in": "45045/30000s",
+   "adjust": {
+    "scale": 0.83,
+    "keyframes": [
+     {
+      "time": "0/24s",
+      "scale": 0.83
+     },
+     {
+      "time": "11/24s",
+      "scale": 0.86
+     }
+    ]
+   }
+  },
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/11-cannon-skyline WHITE silhouette f73.mov",
+   "name": "Flash: cannon",
+   "at": "214/24s",
+   "duration": "3/24s",
+   "lane": 2,
+   "source_in": "3003/30000s"
+  },
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/11-cannon-skyline WHITE silhouette f73.mov",
+   "name": "Flash: cannon",
+   "at": "238/24s",
+   "duration": "2/24s",
+   "lane": 2,
+   "source_in": "33033/30000s"
+  },
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/11-cannon-skyline WHITE skyline 4.45s.mov",
+   "name": "Flash: skyline",
+   "at": "262/24s",
+   "duration": "2/24s",
+   "lane": 2,
+   "source_in": "2002/30000s"
+  },
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/12-street-musicians WHITE silhouette f70.mov",
+   "name": "Silhouette: musicians (next shot)",
+   "at": "282/24s",
+   "duration": "4/24s",
+   "lane": 3,
+   "source_in": 0
+  },
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/13-crosswalk-above WHITE silhouette f45.mov",
+   "name": "Flash: cabs",
+   "at": "307/24s",
+   "duration": "3/24s",
+   "lane": 2,
+   "source_in": "9/30s"
+  },
+  {
+   "path": "/path/to/projects/NYC Red Blocks/broll/13-crosswalk-above WHITE silhouette f45.mov",
+   "name": "Flash: cabs",
+   "at": "316/24s",
+   "duration": "2/24s",
+   "lane": 2,
+   "source_in": "20/30s"
+  }
+ ],
+ "library": "/path/to/libraries/My Library.fcpbundle",
+ "output_path": "/path/to/projects/NYC Red Blocks/NYC Red Blocks.fcpxml",
+ "import_into_fcp": false
+}
