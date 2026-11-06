@@ -153,7 +153,7 @@ It then waits until the project shows up. Without Accessibility, you pick the li
 
 - **Cutout match transition:** before a cut, the next shot's hero element (a neon sign, a tower, a person) appears in the current shot, truly masked, at its exact next-shot position. It flickers on and stays locked through the cut.
 - **More effects:** signs glowing on letter by letter, type-on onto the sky, a red block-grid transition, white silhouettes, glints and a letterbox.
-- **Masks:** brightness keys for lit elements, and macOS Vision subject lifting for people and objects.
+- **Background removal, built into your Mac:** people, animals and objects are cut out with the same model as "Lift subject" in Photos (Apple Vision), applied to every frame of a video. It runs on-device, with no cloud and no API key, and exports a ProRes 4444 clip with alpha that Final Cut lays over other shots. Bright elements like neon signs use a brightness key instead.
 - **Sound:** sound effects made in code to match each effect, plus a free recorded library (Mixkit, Freesound CC0).
 - **Creative mode:** invent new effects from your own footage, with no reference reel.
 - **Previews:** quick MP4 previews and a frame-lock check without opening Final Cut.
