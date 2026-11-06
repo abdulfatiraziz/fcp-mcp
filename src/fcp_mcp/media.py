@@ -58,9 +58,10 @@ class MediaInfo:
 
 
 def whole_frames(duration: Fraction, frame: Fraction) -> int:
-    """Frames in `duration`, counting a final frame that is short only by rounding (< 1% of a frame)."""
+    """Frames in `duration`, counting a final frame that is short only by container rounding (< 10% of a frame).
+    x264/MP4 often reports e.g. 1.266016 s for 38 frames at 30 fps (37.98 frames); that is still 38 whole frames."""
     n = duration / frame
-    return round(n) if abs(n - round(n)) < Fraction(1, 100) else int(n)
+    return round(n) if abs(n - round(n)) < Fraction(1, 10) else int(n)
 
 
 def _ffprobe() -> str:
