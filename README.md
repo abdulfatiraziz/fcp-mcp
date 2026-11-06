@@ -164,8 +164,8 @@ Each of these was built by Claude Code with this skill as an editable Final Cut 
 
 | | |
 |---|---|
-| ![Cutout match transitions, New York](docs/showcase/cutout-match-nyc.gif) | ![Cutout match transitions on Ray-Ban Meta footage](docs/showcase/cutout-match-rayban.gif) |
-| **Cutout match transitions:** the Empire State crowns, a moon and skyline, a person lifted with Mac background removal, bridge lights. | **Your own footage:** a Ray-Ban Meta reel with Vision cutouts (menu, barista, selfie, friend), steadied and set on white. |
+| ![Cutout match transitions, New York](docs/showcase/cutout-match-nyc.gif) | ![Ray-Ban Meta coffee vlog](docs/showcase/coffee-vlog.gif) |
+| **Cutout match transitions:** the Empire State crowns, a moon and skyline, a person lifted with Mac background removal, bridge lights. | **Your own footage:** the coffee vlog from a YouTube video, shot on Ray-Ban Meta glasses, steadied, set as a 3:4 card on white, with captions and effects on the beat. |
 | ![Signs glow on, then type onto the sky](docs/showcase/sign-glow-type-on.gif) | ![Red block-grid transition with white silhouettes](docs/showcase/red-block-grid.gif) |
 | **Sign glow + type-on:** Times Square signs switch on letter by letter, then the next shot's sign types onto the sky. | **Red block grid:** the grid closes over one shot, the subject stays on top, the next person appears as a white silhouette. |
 
