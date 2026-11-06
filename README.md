@@ -158,6 +158,17 @@ It then waits until the project shows up. Without Accessibility, you pick the li
 - **Creative mode:** invent new effects from your own footage, with no reference reel.
 - **Previews:** quick MP4 previews and a frame-lock check without opening Final Cut.
 
+### Made with it
+
+Each of these was built by Claude Code with this skill as an editable Final Cut timeline (silent previews; footage from Mixkit and Ray-Ban Meta glasses).
+
+| | |
+|---|---|
+| ![Cutout match transitions, New York](docs/showcase/cutout-match-nyc.gif) | ![Cutout match transitions on Ray-Ban Meta footage](docs/showcase/cutout-match-rayban.gif) |
+| **Cutout match transitions:** the Empire State crowns, a moon and skyline, a person lifted with Mac background removal, bridge lights. | **Your own footage:** a Ray-Ban Meta reel with Vision cutouts (menu, barista, selfie, friend), steadied and set on white. |
+| ![Signs glow on, then type onto the sky](docs/showcase/sign-glow-type-on.gif) | ![Red block-grid transition with white silhouettes](docs/showcase/red-block-grid.gif) |
+| **Sign glow + type-on:** Times Square signs switch on letter by letter, then the next shot's sign types onto the sky. | **Red block grid:** the grid closes over one shot, the subject stays on top, the next person appears as a white silhouette. |
+
 Install it by linking the folder into your skills:
 
 ```bash
