@@ -1,0 +1,614 @@
+{
+ "project_name": "Keep Killing It NYC",
+ "event_name": "NYC recreation",
+ "width": 1920,
+ "height": 1080,
+ "fps": 23.976,
+ "primary": [
+  {
+   "path": "/path/to/projects/Keep Killing It NYC/broll/13-manhattan-aerial-dusk.mp4",
+   "duration": "58058/24000s",
+   "source_in": 2.0
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It NYC/broll/02-empire-state.mp4",
+   "duration": "37037/24000s",
+   "source_in": 2.0
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It NYC/broll/01-night-skyline.mp4",
+   "duration": "64064/24000s",
+   "source_in": "90090/30000s"
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It NYC/broll/04-woman-times-square.mp4",
+   "duration": "59059/24000s",
+   "source_in": "225225/30000s"
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It NYC/broll/05-times-square-night.mp4",
+   "duration": "7007/24000s",
+   "source_in": 10.0
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It NYC/broll/06-midtown-night.mp4",
+   "duration": "7007/24000s",
+   "source_in": 3.0
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It NYC/broll/07-manhattan-dusk.mp4",
+   "duration": "7007/24000s",
+   "source_in": 3.0
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It NYC/broll/08-brooklyn-bridge-dusk.mp4",
+   "duration": "21021/24000s",
+   "source_in": 6.0
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It NYC/broll/09-night-traffic.mp4",
+   "duration": "7007/24000s",
+   "source_in": 5.0
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It NYC/broll/03-new-yorker-neon.mp4",
+   "duration": "7007/24000s",
+   "source_in": 12.0
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It NYC/broll/11-bridge-night.mp4",
+   "duration": "25025/24000s",
+   "source_in": 3.0
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It NYC/broll/12-vacancy-neon.mp4",
+   "duration": "7007/24000s",
+   "source_in": "48048/24000s"
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It NYC/broll/05-times-square-night.mp4",
+   "duration": "7007/24000s",
+   "source_in": 20.0
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It NYC/broll/01-night-skyline.mp4",
+   "duration": "19019/24000s",
+   "source_in": 12.0
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It NYC/broll/15-bridges-night.mp4",
+   "duration": "39039/24000s",
+   "source_in": "90090/30000s"
+  },
+  {
+   "duration": "7007/24000s",
+   "name": "Black"
+  }
+ ],
+ "connected": [
+  {
+   "path": "/path/to/projects/Keep Killing It NYC/music/reference-music.wav",
+   "at": 0,
+   "lane": -1,
+   "audio_role": "music"
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It NYC/broll/02-empire-state TOWERS matte.mov",
+   "name": "Cutout: Empire State + NY Life (keyed)",
+   "at": "38038/24000s",
+   "duration": "20020/24000s",
+   "lane": 1,
+   "source_in": 1.1658,
+   "adjust": {
+    "crop": {
+     "x0": 0,
+     "y0": 0,
+     "x1": 1,
+     "y1": 1
+    },
+    "hold": [
+     "crop",
+     "opacity"
+    ],
+    "keyframes": [
+     {
+      "time": "0/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0.8333333333333334,
+       "x1": 1,
+       "y1": 1
+      },
+      "opacity": 1
+     },
+     {
+      "time": "1001/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0.6666666666666667,
+       "x1": 1,
+       "y1": 1
+      }
+     },
+     {
+      "time": "2002/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0.5,
+       "x1": 1,
+       "y1": 1
+      }
+     },
+     {
+      "time": "3003/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0.33333333333333337,
+       "x1": 1,
+       "y1": 1
+      }
+     },
+     {
+      "time": "4004/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0.16666666666666663,
+       "x1": 1,
+       "y1": 1
+      }
+     },
+     {
+      "time": "5005/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0.0,
+       "x1": 1,
+       "y1": 1
+      }
+     },
+     {
+      "time": "7007/24000s",
+      "opacity": 0.2
+     },
+     {
+      "time": "8008/24000s",
+      "opacity": 1
+     },
+     {
+      "time": "12012/24000s",
+      "opacity": 0.5
+     },
+     {
+      "time": "13013/24000s",
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It NYC/broll/01-night-skyline MOON+SKYLINE matte.mov",
+   "name": "Cutout: moon + skyline (keyed)",
+   "at": "79079/24000s",
+   "duration": "16016/24000s",
+   "lane": 1,
+   "source_in": "70070/30000s",
+   "adjust": {
+    "crop": {
+     "x0": 0,
+     "y0": 0,
+     "x1": 1,
+     "y1": 1
+    },
+    "hold": [
+     "crop",
+     "opacity"
+    ],
+    "keyframes": [
+     {
+      "time": "0/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0,
+       "x1": 0.125,
+       "y1": 1
+      },
+      "opacity": 1
+     },
+     {
+      "time": "1001/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0,
+       "x1": 0.25,
+       "y1": 1
+      }
+     },
+     {
+      "time": "2002/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0,
+       "x1": 0.375,
+       "y1": 1
+      }
+     },
+     {
+      "time": "3003/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0,
+       "x1": 0.5,
+       "y1": 1
+      }
+     },
+     {
+      "time": "4004/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0,
+       "x1": 0.625,
+       "y1": 1
+      }
+     },
+     {
+      "time": "5005/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0,
+       "x1": 0.75,
+       "y1": 1
+      }
+     },
+     {
+      "time": "6006/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0,
+       "x1": 0.875,
+       "y1": 1
+      }
+     },
+     {
+      "time": "7007/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0,
+       "x1": 1.0,
+       "y1": 1
+      }
+     },
+     {
+      "time": "9009/24000s",
+      "opacity": 0.2
+     },
+     {
+      "time": "10010/24000s",
+      "opacity": 1
+     },
+     {
+      "time": "12012/24000s",
+      "opacity": 0.5
+     },
+     {
+      "time": "13013/24000s",
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It NYC/broll/04-woman PERSON cutout.mov",
+   "name": "Cutout: woman in Times Square (Vision)",
+   "at": "139139/24000s",
+   "duration": "20020/24000s",
+   "lane": 1,
+   "source_in": "10010/30000s",
+   "adjust": {
+    "crop": {
+     "x0": 0,
+     "y0": 0,
+     "x1": 1,
+     "y1": 1
+    },
+    "hold": [
+     "crop",
+     "opacity"
+    ],
+    "keyframes": [
+     {
+      "time": "0/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0.75,
+       "x1": 1,
+       "y1": 1
+      },
+      "opacity": 1
+     },
+     {
+      "time": "1001/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0.5,
+       "x1": 1,
+       "y1": 1
+      },
+      "opacity": 0
+     },
+     {
+      "time": "2002/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0.25,
+       "x1": 1,
+       "y1": 1
+      },
+      "opacity": 0.8
+     },
+     {
+      "time": "3003/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0,
+       "x1": 1,
+       "y1": 1
+      },
+      "opacity": 0
+     },
+     {
+      "time": "4004/24000s",
+      "opacity": 1
+     },
+     {
+      "time": "9009/24000s",
+      "opacity": 0.4
+     },
+     {
+      "time": "10010/24000s",
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It NYC/broll/12-vacancy-neon VACANCY matte.mov",
+   "name": "Cutout: VACANCY (keyed)",
+   "at": "283283/24000s",
+   "duration": "16016/24000s",
+   "lane": 1,
+   "source_in": "32032/24000s",
+   "adjust": {
+    "crop": {
+     "x0": 0.31,
+     "y0": 0.37,
+     "x1": 0.63,
+     "y1": 0.535
+    },
+    "hold": [
+     "crop",
+     "opacity"
+    ],
+    "keyframes": [
+     {
+      "time": "0/24000s",
+      "crop": {
+       "x0": 0.31,
+       "y0": 0.37,
+       "x1": 0.3557142857142857,
+       "y1": 0.535
+      },
+      "opacity": 1
+     },
+     {
+      "time": "1001/24000s",
+      "crop": {
+       "x0": 0.31,
+       "y0": 0.37,
+       "x1": 0.4014285714285714,
+       "y1": 0.535
+      }
+     },
+     {
+      "time": "2002/24000s",
+      "crop": {
+       "x0": 0.31,
+       "y0": 0.37,
+       "x1": 0.4471428571428572,
+       "y1": 0.535
+      }
+     },
+     {
+      "time": "3003/24000s",
+      "crop": {
+       "x0": 0.31,
+       "y0": 0.37,
+       "x1": 0.4928571428571429,
+       "y1": 0.535
+      }
+     },
+     {
+      "time": "4004/24000s",
+      "crop": {
+       "x0": 0.31,
+       "y0": 0.37,
+       "x1": 0.5385714285714286,
+       "y1": 0.535
+      }
+     },
+     {
+      "time": "5005/24000s",
+      "crop": {
+       "x0": 0.31,
+       "y0": 0.37,
+       "x1": 0.5842857142857143,
+       "y1": 0.535
+      }
+     },
+     {
+      "time": "6006/24000s",
+      "crop": {
+       "x0": 0.31,
+       "y0": 0.37,
+       "x1": 0.63,
+       "y1": 0.535
+      }
+     },
+     {
+      "time": "9009/24000s",
+      "opacity": 0.15
+     },
+     {
+      "time": "10010/24000s",
+      "opacity": 1
+     },
+     {
+      "time": "12012/24000s",
+      "opacity": 0.5
+     },
+     {
+      "time": "13013/24000s",
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It NYC/broll/15-bridges-night BRIDGES matte.mov",
+   "name": "Cutout: bridge lights (keyed)",
+   "at": "316316/24000s",
+   "duration": "16016/24000s",
+   "lane": 1,
+   "source_in": "70070/30000s",
+   "adjust": {
+    "crop": {
+     "x0": 0,
+     "y0": 0,
+     "x1": 1,
+     "y1": 1
+    },
+    "hold": [
+     "crop",
+     "opacity"
+    ],
+    "keyframes": [
+     {
+      "time": "0/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0,
+       "x1": 0.125,
+       "y1": 1
+      },
+      "opacity": 1
+     },
+     {
+      "time": "1001/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0,
+       "x1": 0.25,
+       "y1": 1
+      }
+     },
+     {
+      "time": "2002/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0,
+       "x1": 0.375,
+       "y1": 1
+      }
+     },
+     {
+      "time": "3003/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0,
+       "x1": 0.5,
+       "y1": 1
+      }
+     },
+     {
+      "time": "4004/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0,
+       "x1": 0.625,
+       "y1": 1
+      }
+     },
+     {
+      "time": "5005/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0,
+       "x1": 0.75,
+       "y1": 1
+      }
+     },
+     {
+      "time": "6006/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0,
+       "x1": 0.875,
+       "y1": 1
+      }
+     },
+     {
+      "time": "7007/24000s",
+      "crop": {
+       "x0": 0,
+       "y0": 0,
+       "x1": 1.0,
+       "y1": 1
+      }
+     },
+     {
+      "time": "9009/24000s",
+      "opacity": 0.3
+     },
+     {
+      "time": "10010/24000s",
+      "opacity": 1
+     },
+     {
+      "time": "12012/24000s",
+      "opacity": 0.6
+     },
+     {
+      "time": "13013/24000s",
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "text": "YOURE A WINNER.",
+   "at": "42042/24000s",
+   "duration": "135135/24000s",
+   "lane": 4,
+   "style": {
+    "font": "Helvetica Neue",
+    "font_face": "Bold",
+    "font_size": 44,
+    "color": "#FFFFFF"
+   }
+  },
+  {
+   "text": "KEEP KILLING IT.",
+   "at": "177177/24000s",
+   "duration": "201201/24000s",
+   "lane": 4,
+   "style": {
+    "font": "Helvetica Neue",
+    "font_face": "Bold",
+    "font_size": 44,
+    "color": "#FFFFFF"
+   }
+  }
+ ],
+ "library": "/path/to/projects/Keep Killing It/Keep Killing It.fcpbundle",
+ "output_path": "/path/to/projects/Keep Killing It NYC/Keep Killing It NYC.fcpxml",
+ "import_into_fcp": false
+}

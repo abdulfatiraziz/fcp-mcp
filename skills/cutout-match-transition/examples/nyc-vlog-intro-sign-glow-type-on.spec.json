@@ -1,0 +1,584 @@
+{
+ "project_name": "NYC Vlog Intro",
+ "event_name": "NYC effects",
+ "width": 1920,
+ "height": 1080,
+ "fps": 23.976,
+ "primary": [
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/01-times-square-fisheye.mp4",
+   "duration": "37037/24000s",
+   "source_in": 1.0
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/02-times-square-kodak.mp4",
+   "duration": "80080/24000s",
+   "source_in": 2.0
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/03-woolworth-sky.mp4",
+   "duration": "72072/24000s",
+   "source_in": 3.0
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/04-vacancy-neon.mp4",
+   "duration": "12012/24000s",
+   "source_in": "36036/24000s"
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/05-grand-central-lobby.mp4",
+   "duration": "5005/24000s",
+   "source_in": 3.0
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/06-cabs.mp4",
+   "duration": "4004/24000s",
+   "source_in": 10.0
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/07-traffic-light-taxi.mp4",
+   "duration": "5005/24000s",
+   "source_in": 5.0
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/08-grand-central-commuters.mp4",
+   "duration": "29029/24000s",
+   "source_in": 2.0
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/09-empire-state-skyline.mp4",
+   "duration": "34034/24000s",
+   "source_in": 5.0
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/10-high-pov-clouds.mp4",
+   "duration": "4004/24000s",
+   "source_in": 3.0
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/11-brooklyn-day.mp4",
+   "duration": "4004/24000s",
+   "source_in": 5.0
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/12-flags-downtown.mp4",
+   "duration": "5005/24000s",
+   "source_in": 5.0
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/13-brooklyn-bridge-up.mp4",
+   "duration": "3003/24000s",
+   "source_in": 5.0
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/14-central-park-aerial.mp4",
+   "duration": "4004/24000s",
+   "source_in": 4.0
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/15-flag-brooklyn-bridge.mp4",
+   "duration": "4004/24000s",
+   "source_in": 4.0
+  },
+  {
+   "duration": "17017/24000s",
+   "name": "Black tail"
+  }
+ ],
+ "connected": [
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/music/reference-music.wav",
+   "at": 0,
+   "lane": -1,
+   "audio_role": "music"
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/02-times-square-kodak CHAPERONE glow.mov",
+   "name": "Glow: CHAPERONE",
+   "at": "60060/24000s",
+   "duration": "10010/24000s",
+   "lane": 1,
+   "source_in": "23/24s",
+   "adjust": {
+    "hold": [
+     "crop",
+     "opacity"
+    ],
+    "keyframes": [
+     {
+      "time": "0/24000s",
+      "opacity": 1
+     },
+     {
+      "time": "2002/24000s",
+      "opacity": 0
+     },
+     {
+      "time": "3003/24000s",
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/02-times-square-kodak MARQUIS glow.mov",
+   "name": "Glow: MARQUIS",
+   "at": "60060/24000s",
+   "duration": "10010/24000s",
+   "lane": 2,
+   "source_in": "23/24s",
+   "adjust": {
+    "hold": [
+     "crop",
+     "opacity"
+    ],
+    "keyframes": [
+     {
+      "time": "0/24000s",
+      "opacity": 1
+     },
+     {
+      "time": "2002/24000s",
+      "opacity": 0
+     },
+     {
+      "time": "3003/24000s",
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/02-times-square-kodak KODAK glow.mov",
+   "name": "Glow: KODAK",
+   "at": "77077/24000s",
+   "duration": "2002/24000s",
+   "lane": 3,
+   "source_in": "40/24s",
+   "adjust": {
+    "hold": [
+     "crop",
+     "opacity"
+    ]
+   }
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/02-times-square-kodak KODAK glow.mov",
+   "name": "Glow: Kodak letter K",
+   "at": "84084/24000s",
+   "duration": "3003/24000s",
+   "lane": 3,
+   "source_in": "47/24s",
+   "adjust": {
+    "hold": [
+     "crop",
+     "opacity"
+    ],
+    "crop": {
+     "x0": 0.008,
+     "y0": 0.112,
+     "x1": 0.056,
+     "y1": 0.203
+    }
+   }
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/02-times-square-kodak KODAK glow.mov",
+   "name": "Glow: Kodak letter d",
+   "at": "89089/24000s",
+   "duration": "3003/24000s",
+   "lane": 3,
+   "source_in": "52/24s",
+   "adjust": {
+    "hold": [
+     "crop",
+     "opacity"
+    ],
+    "crop": {
+     "x0": 0.008,
+     "y0": 0.24,
+     "x1": 0.056,
+     "y1": 0.306
+    }
+   }
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/02-times-square-kodak KODAK glow.mov",
+   "name": "Glow: Kodak letter k",
+   "at": "94094/24000s",
+   "duration": "3003/24000s",
+   "lane": 3,
+   "source_in": "57/24s",
+   "adjust": {
+    "hold": [
+     "crop",
+     "opacity"
+    ],
+    "crop": {
+     "x0": 0.008,
+     "y0": 0.362,
+     "x1": 0.056,
+     "y1": 0.425
+    }
+   }
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/02-times-square-kodak SAMSUNG glow.mov",
+   "name": "Glow: SAMSUNG",
+   "at": "99099/24000s",
+   "duration": "2002/24000s",
+   "lane": 4,
+   "source_in": "62/24s",
+   "adjust": {
+    "hold": [
+     "crop",
+     "opacity"
+    ]
+   }
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/02-times-square-kodak CHAPERONE glow.mov",
+   "name": "Glow: CHAPERONE",
+   "at": "104104/24000s",
+   "duration": "8008/24000s",
+   "lane": 1,
+   "source_in": "67/24s",
+   "adjust": {
+    "hold": [
+     "crop",
+     "opacity"
+    ],
+    "keyframes": [
+     {
+      "time": "0/24000s",
+      "opacity": 1
+     },
+     {
+      "time": "3003/24000s",
+      "opacity": 0.55
+     },
+     {
+      "time": "4004/24000s",
+      "opacity": 1
+     },
+     {
+      "time": "6006/24000s",
+      "opacity": 0.7
+     },
+     {
+      "time": "7007/24000s",
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/02-times-square-kodak MARQUIS glow.mov",
+   "name": "Glow: MARQUIS",
+   "at": "104104/24000s",
+   "duration": "8008/24000s",
+   "lane": 2,
+   "source_in": "67/24s",
+   "adjust": {
+    "hold": [
+     "crop",
+     "opacity"
+    ],
+    "keyframes": [
+     {
+      "time": "0/24000s",
+      "opacity": 1
+     },
+     {
+      "time": "3003/24000s",
+      "opacity": 0.55
+     },
+     {
+      "time": "4004/24000s",
+      "opacity": 1
+     },
+     {
+      "time": "6006/24000s",
+      "opacity": 0.7
+     },
+     {
+      "time": "7007/24000s",
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/02-times-square-kodak KODAK glow.mov",
+   "name": "Glow: KODAK",
+   "at": "104104/24000s",
+   "duration": "8008/24000s",
+   "lane": 3,
+   "source_in": "67/24s",
+   "adjust": {
+    "hold": [
+     "crop",
+     "opacity"
+    ],
+    "keyframes": [
+     {
+      "time": "0/24000s",
+      "opacity": 1
+     },
+     {
+      "time": "3003/24000s",
+      "opacity": 0.55
+     },
+     {
+      "time": "4004/24000s",
+      "opacity": 1
+     },
+     {
+      "time": "6006/24000s",
+      "opacity": 0.7
+     },
+     {
+      "time": "7007/24000s",
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/02-times-square-kodak SAMSUNG glow.mov",
+   "name": "Glow: SAMSUNG",
+   "at": "104104/24000s",
+   "duration": "8008/24000s",
+   "lane": 4,
+   "source_in": "67/24s",
+   "adjust": {
+    "hold": [
+     "crop",
+     "opacity"
+    ],
+    "keyframes": [
+     {
+      "time": "0/24000s",
+      "opacity": 1
+     },
+     {
+      "time": "3003/24000s",
+      "opacity": 0.55
+     },
+     {
+      "time": "4004/24000s",
+      "opacity": 1
+     },
+     {
+      "time": "6006/24000s",
+      "opacity": 0.7
+     },
+     {
+      "time": "7007/24000s",
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/04-vacancy-neon VACANCY letters f36.png",
+   "name": "Type-on: VACANCY (still of next shot f36)",
+   "at": "132132/24000s",
+   "duration": "57057/24000s",
+   "lane": 1,
+   "adjust": {
+    "crop": {
+     "x0": 0.34,
+     "y0": 0.33,
+     "x1": 0.71,
+     "y1": 0.6
+    },
+    "hold": [
+     "crop",
+     "opacity"
+    ],
+    "keyframes": [
+     {
+      "time": "0/24000s",
+      "crop": {
+       "x0": 0.34,
+       "y0": 0.33,
+       "x1": 0.388,
+       "y1": 0.6
+      },
+      "opacity": 1
+     },
+     {
+      "time": "6006/24000s",
+      "crop": {
+       "x0": 0.34,
+       "y0": 0.33,
+       "x1": 0.444,
+       "y1": 0.6
+      }
+     },
+     {
+      "time": "12012/24000s",
+      "crop": {
+       "x0": 0.34,
+       "y0": 0.33,
+       "x1": 0.492,
+       "y1": 0.6
+      }
+     },
+     {
+      "time": "18018/24000s",
+      "crop": {
+       "x0": 0.34,
+       "y0": 0.33,
+       "x1": 0.536,
+       "y1": 0.6
+      }
+     },
+     {
+      "time": "24024/24000s",
+      "crop": {
+       "x0": 0.34,
+       "y0": 0.33,
+       "x1": 0.586,
+       "y1": 0.6
+      }
+     },
+     {
+      "time": "30030/24000s",
+      "crop": {
+       "x0": 0.34,
+       "y0": 0.33,
+       "x1": 0.632,
+       "y1": 0.6
+      }
+     },
+     {
+      "time": "36036/24000s",
+      "crop": {
+       "x0": 0.34,
+       "y0": 0.33,
+       "x1": 0.71,
+       "y1": 0.6
+      }
+     },
+     {
+      "time": "50050/24000s",
+      "opacity": 0.45
+     },
+     {
+      "time": "51051/24000s",
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/04-vacancy-neon TUBES f36.png",
+   "name": "Draw-on: neon tubes (still of next shot f36)",
+   "at": "172172/24000s",
+   "duration": "17017/24000s",
+   "lane": 2,
+   "adjust": {
+    "crop": {
+     "x0": 0.08,
+     "y0": 0.4,
+     "x1": 1.0,
+     "y1": 0.74
+    },
+    "hold": [
+     "opacity"
+    ],
+    "keyframes": [
+     {
+      "time": "0/24000s",
+      "crop": {
+       "x0": 0.08,
+       "y0": 0.4,
+       "x1": 0.09,
+       "y1": 0.74
+      },
+      "opacity": 1
+     },
+     {
+      "time": "9009/24000s",
+      "crop": {
+       "x0": 0.08,
+       "y0": 0.4,
+       "x1": 1.0,
+       "y1": 0.74
+      }
+     },
+     {
+      "time": "11011/24000s",
+      "opacity": 0.3
+     },
+     {
+      "time": "12012/24000s",
+      "opacity": 1
+     },
+     {
+      "time": "14014/24000s",
+      "opacity": 0.6
+     },
+     {
+      "time": "15015/24000s",
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/GLINT 360.png",
+   "name": "Glint: Empire State spire",
+   "at": "246246/24000s",
+   "duration": "5005/24000s",
+   "lane": 1,
+   "conform": "none",
+   "adjust": {
+    "place": [
+     0.4305,
+     0.165
+    ],
+    "scale": 0.05,
+    "keyframes": [
+     {
+      "time": "0/24000s",
+      "scale": 0.05
+     },
+     {
+      "time": "2002/24000s",
+      "scale": 0.42
+     },
+     {
+      "time": "4004/24000s",
+      "scale": 0.02
+     }
+    ]
+   }
+  },
+  {
+   "path": "/path/to/projects/NYC Vlog Intro/broll/LETTERBOX 1920x1080.png",
+   "name": "Letterbox",
+   "at": "258258/24000s",
+   "duration": "44044/24000s",
+   "lane": 5,
+   "adjust": {
+    "scale": 1.3,
+    "keyframes": [
+     {
+      "time": "0/24000s",
+      "scale": 1.3
+     },
+     {
+      "time": "6006/24000s",
+      "scale": 1.0
+     }
+    ]
+   }
+  }
+ ],
+ "library": "/path/to/libraries/My Library.fcpbundle",
+ "output_path": "/path/to/projects/NYC Vlog Intro/NYC Vlog Intro.fcpxml",
+ "import_into_fcp": false
+}

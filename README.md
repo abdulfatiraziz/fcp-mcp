@@ -147,6 +147,38 @@ It then waits until the project shows up. Without Accessibility, you pick the li
 
 ---
 
+## Vlog effects skill (Claude Code)
+
+`skills/cutout-match-transition/` is a Claude Code skill that uses fcp-mcp to build editorial effects as editable Final Cut timelines:
+
+- **Cutout match transition:** before a cut, the next shot's hero element (a neon sign, a tower, a person) appears in the current shot, truly masked, at its exact next-shot position. It flickers on and stays locked through the cut.
+- **More effects:** signs glowing on letter by letter, type-on onto the sky, a red block-grid transition, white silhouettes, glints and a letterbox.
+- **Background removal, built into your Mac:** people, animals and objects are cut out with the same model as "Lift subject" in Photos (Apple Vision), applied to every frame of a video. It runs on-device, with no cloud and no API key, and exports a ProRes 4444 clip with alpha that Final Cut lays over other shots. Bright elements like neon signs use a brightness key instead.
+- **Sound:** sound effects made in code to match each effect, plus a free recorded library (Mixkit, Freesound CC0).
+- **Creative mode:** invent new effects from your own footage, with no reference reel.
+- **Previews:** quick MP4 previews and a frame-lock check without opening Final Cut.
+
+### Made with it
+
+Each of these was built by Claude Code with this skill as an editable Final Cut timeline (silent previews; footage from Mixkit and Ray-Ban Meta glasses).
+
+| | |
+|---|---|
+| ![Cutout match transitions, New York](docs/showcase/cutout-match-nyc.gif) | ![Cutout match transitions on Ray-Ban Meta footage](docs/showcase/cutout-match-rayban.gif) |
+| **Cutout match transitions:** the Empire State crowns, a moon and skyline, a person lifted with Mac background removal, bridge lights. | **Your own footage:** a Ray-Ban Meta reel with Vision cutouts (menu, barista, selfie, friend), steadied and set on white. |
+| ![Signs glow on, then type onto the sky](docs/showcase/sign-glow-type-on.gif) | ![Red block-grid transition with white silhouettes](docs/showcase/red-block-grid.gif) |
+| **Sign glow + type-on:** Times Square signs switch on letter by letter, then the next shot's sign types onto the sky. | **Red block grid:** the grid closes over one shot, the subject stays on top, the next person appears as a white silhouette. |
+
+Install it by linking the folder into your skills:
+
+```bash
+ln -s "$PWD/skills/cutout-match-transition" ~/.claude/skills/cutout-match-transition
+swiftc -O -swift-version 5 -o skills/cutout-match-transition/scripts/bin/subject_matte \
+  skills/cutout-match-transition/scripts/subject_matte.swift
+```
+
+Then ask Claude for "a cutout match transition between these clips" or "be creative with my vlog". The specs in `examples/` use `/path/to/...` placeholders: point them at your own media.
+
 ## Development
 
 ```bash

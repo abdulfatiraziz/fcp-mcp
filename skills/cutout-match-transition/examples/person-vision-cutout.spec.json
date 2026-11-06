@@ -1,0 +1,104 @@
+{
+ "project_name": "Person cutout transition test",
+ "event_name": "Reference recreation",
+ "width": 1920,
+ "height": 1080,
+ "fps": 23.976,
+ "primary": [
+  {
+   "path": "/path/to/projects/Keep Killing It/broll/13-old-street.mp4",
+   "source_in": 3.0,
+   "duration": "48048/24000s"
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It/broll/14-man-in-suit.mp4",
+   "source_in": "170170/24000s",
+   "duration": "40040/24000s"
+  }
+ ],
+ "connected": [
+  {
+   "path": "/path/to/projects/Keep Killing It/music/reference-music.wav",
+   "at": 0,
+   "lane": -1,
+   "audio_role": "music",
+   "source_in": "251251/24000s"
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It/broll/14-man-in-suit PERSON cutout.mov",
+   "name": "Cutout: man on phone (Vision, in place)",
+   "at": "28028/24000s",
+   "duration": "20020/24000s",
+   "lane": 1,
+   "source_in": "10010/24000s",
+   "adjust": {
+    "crop": {
+     "x0": 0,
+     "y0": 0,
+     "x1": 1,
+     "y1": 1
+    },
+    "hold": [
+     "opacity",
+     "crop"
+    ],
+    "keyframes": [
+     {
+      "time": "0/24000s",
+      "opacity": 1,
+      "crop": {
+       "x0": 0,
+       "y0": 0.75,
+       "x1": 1,
+       "y1": 1
+      }
+     },
+     {
+      "time": "1001/24000s",
+      "opacity": 0,
+      "crop": {
+       "x0": 0,
+       "y0": 0.5,
+       "x1": 1,
+       "y1": 1
+      }
+     },
+     {
+      "time": "2002/24000s",
+      "opacity": 0.8,
+      "crop": {
+       "x0": 0,
+       "y0": 0.25,
+       "x1": 1,
+       "y1": 1
+      }
+     },
+     {
+      "time": "3003/24000s",
+      "opacity": 0,
+      "crop": {
+       "x0": 0,
+       "y0": 0.0,
+       "x1": 1,
+       "y1": 1
+      }
+     },
+     {
+      "time": "4004/24000s",
+      "opacity": 1
+     },
+     {
+      "time": "9009/24000s",
+      "opacity": 0.4
+     },
+     {
+      "time": "10010/24000s",
+      "opacity": 1
+     }
+    ]
+   }
+  }
+ ],
+ "output_path": "/path/to/projects/Keep Killing It/Person cutout transition test.fcpxml",
+ "import_into_fcp": false
+}

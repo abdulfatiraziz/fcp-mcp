@@ -1,0 +1,503 @@
+{
+ "project_name": "Keep Killing It v4 (keyed TELEPHONE)",
+ "event_name": "Reference recreation",
+ "width": 1920,
+ "height": 1080,
+ "fps": 23.976,
+ "primary": [
+  {
+   "path": "/path/to/projects/Keep Killing It/broll/01-tower-street.mp4",
+   "duration": "58058/24000s",
+   "source_in": 0.5
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It/broll/02-tower-city.mp4",
+   "duration": "37037/24000s",
+   "source_in": 2.0
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It/broll/09-neon-street.mp4",
+   "duration": "64064/24000s",
+   "source_in": 1.0
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It/broll/04-crowd-night.mp4",
+   "duration": "59059/24000s",
+   "source_in": 6.0
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It/broll/05-park-lamps.mp4",
+   "duration": "7007/24000s",
+   "source_in": 2.0
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It/broll/03-red-neon-hotel.mp4",
+   "duration": "7007/24000s",
+   "source_in": 3.0
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It/broll/07-theater.mp4",
+   "duration": "7007/24000s",
+   "source_in": 0.5
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It/broll/08-pedestrian-street.mp4",
+   "duration": "21021/24000s",
+   "source_in": 2.0
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It/broll/06-korea-neon.mp4",
+   "duration": "7007/24000s",
+   "source_in": 3.0
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It/broll/14-man-in-suit.mp4",
+   "duration": "7007/24000s",
+   "source_in": 8.0
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It/broll/11-train.mp4",
+   "duration": "25025/24000s",
+   "source_in": 3.0
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It/broll/12-phone-booth.mp4",
+   "duration": "7007/24000s",
+   "source_in": "17017/24000s"
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It/broll/13-old-street.mp4",
+   "duration": "7007/24000s",
+   "source_in": 5.6
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It/broll/10-tokyo-street.mp4",
+   "duration": "19019/24000s",
+   "source_in": 12.0
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It/broll/15-harbour-skyline.mp4",
+   "duration": "39039/24000s",
+   "source_in": 3.0
+  },
+  {
+   "duration": "7007/24000s",
+   "name": "Black"
+  }
+ ],
+ "connected": [
+  {
+   "path": "/path/to/projects/Keep Killing It/music/reference-music.wav",
+   "at": 0,
+   "lane": -1,
+   "audio_role": "music"
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It/broll/02-tower-city.mp4",
+   "name": "Cutout: tower rise",
+   "at": "36036/24000s",
+   "duration": "22022/24000s",
+   "lane": 1,
+   "source_in": 1.082,
+   "adjust": {
+    "crop": {
+     "x0": 0.095,
+     "y0": 0.02,
+     "x1": 0.19,
+     "y1": 0.26
+    },
+    "scale": 1.2,
+    "place": [
+     0.21,
+     0.146
+    ],
+    "blend_mode": "screen",
+    "hold": [
+     "opacity"
+    ],
+    "keyframes": [
+     {
+      "time": "0/24000s",
+      "place": [
+       0.21,
+       0.434
+      ],
+      "crop": {
+       "x0": 0.095,
+       "y0": 0.02,
+       "x1": 0.19,
+       "y1": 0.0205
+      },
+      "opacity": 1
+     },
+     {
+      "time": "12012/24000s",
+      "place": [
+       0.21,
+       0.146
+      ],
+      "crop": {
+       "x0": 0.095,
+       "y0": 0.02,
+       "x1": 0.19,
+       "y1": 0.26
+      }
+     },
+     {
+      "time": "13013/24000s",
+      "opacity": 0.25
+     },
+     {
+      "time": "14014/24000s",
+      "opacity": 1
+     },
+     {
+      "time": "16016/24000s",
+      "opacity": 0.45
+     },
+     {
+      "time": "17017/24000s",
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It/broll/09-neon-street.mp4",
+   "name": "Cutout: neon sign L",
+   "at": "82082/24000s",
+   "duration": "13013/24000s",
+   "lane": 1,
+   "source_in": 0.458,
+   "adjust": {
+    "crop": {
+     "x0": 0.225,
+     "y0": 0.05,
+     "x1": 0.38,
+     "y1": 0.515
+    },
+    "scale": 0.5,
+    "place": [
+     0.4,
+     0.14
+    ],
+    "blend_mode": "screen",
+    "hold": [
+     "opacity",
+     "crop"
+    ],
+    "keyframes": [
+     {
+      "time": "0/24000s",
+      "crop": {
+       "x0": 0.225,
+       "y0": 0.05,
+       "x1": 0.38,
+       "y1": 0.1275
+      },
+      "opacity": 1
+     },
+     {
+      "time": "1001/24000s",
+      "crop": {
+       "x0": 0.225,
+       "y0": 0.05,
+       "x1": 0.38,
+       "y1": 0.20500000000000002
+      }
+     },
+     {
+      "time": "2002/24000s",
+      "crop": {
+       "x0": 0.225,
+       "y0": 0.05,
+       "x1": 0.38,
+       "y1": 0.28250000000000003
+      }
+     },
+     {
+      "time": "3003/24000s",
+      "crop": {
+       "x0": 0.225,
+       "y0": 0.05,
+       "x1": 0.38,
+       "y1": 0.36
+      }
+     },
+     {
+      "time": "4004/24000s",
+      "crop": {
+       "x0": 0.225,
+       "y0": 0.05,
+       "x1": 0.38,
+       "y1": 0.4375
+      }
+     },
+     {
+      "time": "5005/24000s",
+      "crop": {
+       "x0": 0.225,
+       "y0": 0.05,
+       "x1": 0.38,
+       "y1": 0.515
+      }
+     },
+     {
+      "time": "7007/24000s",
+      "opacity": 0.15
+     },
+     {
+      "time": "8008/24000s",
+      "opacity": 1
+     },
+     {
+      "time": "10010/24000s",
+      "opacity": 0.5
+     },
+     {
+      "time": "11011/24000s",
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It/broll/09-neon-street.mp4",
+   "name": "Cutout: neon sign R",
+   "at": "84084/24000s",
+   "duration": "11011/24000s",
+   "lane": 2,
+   "source_in": 0.541,
+   "adjust": {
+    "crop": {
+     "x0": 0.225,
+     "y0": 0.05,
+     "x1": 0.38,
+     "y1": 0.515
+    },
+    "scale": 0.5,
+    "place": [
+     0.78,
+     0.14
+    ],
+    "blend_mode": "screen",
+    "hold": [
+     "opacity",
+     "crop"
+    ],
+    "keyframes": [
+     {
+      "time": "0/24000s",
+      "crop": {
+       "x0": 0.225,
+       "y0": 0.05,
+       "x1": 0.38,
+       "y1": 0.1275
+      },
+      "opacity": 1
+     },
+     {
+      "time": "1001/24000s",
+      "crop": {
+       "x0": 0.225,
+       "y0": 0.05,
+       "x1": 0.38,
+       "y1": 0.20500000000000002
+      }
+     },
+     {
+      "time": "2002/24000s",
+      "crop": {
+       "x0": 0.225,
+       "y0": 0.05,
+       "x1": 0.38,
+       "y1": 0.28250000000000003
+      }
+     },
+     {
+      "time": "3003/24000s",
+      "crop": {
+       "x0": 0.225,
+       "y0": 0.05,
+       "x1": 0.38,
+       "y1": 0.36
+      }
+     },
+     {
+      "time": "4004/24000s",
+      "crop": {
+       "x0": 0.225,
+       "y0": 0.05,
+       "x1": 0.38,
+       "y1": 0.4375
+      }
+     },
+     {
+      "time": "5005/24000s",
+      "crop": {
+       "x0": 0.225,
+       "y0": 0.05,
+       "x1": 0.38,
+       "y1": 0.515
+      }
+     },
+     {
+      "time": "7007/24000s",
+      "opacity": 0.2
+     },
+     {
+      "time": "8008/24000s",
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "path": "/path/to/projects/Keep Killing It/broll/12-phone-booth TELEPHONE matte.mov",
+   "name": "Cutout: TELEPHONE (keyed, in place)",
+   "at": "283283/24000s",
+   "duration": "16016/24000s",
+   "lane": 1,
+   "source_in": "1001/24000s",
+   "adjust": {
+    "crop": {
+     "x0": 0.19,
+     "y0": 0.02,
+     "x1": 0.81,
+     "y1": 0.24
+    },
+    "hold": [
+     "crop",
+     "opacity"
+    ],
+    "keyframes": [
+     {
+      "time": "0/24000s",
+      "crop": {
+       "x0": 0.19,
+       "y0": 0.02,
+       "x1": 0.28,
+       "y1": 0.24
+      },
+      "opacity": 1
+     },
+     {
+      "time": "1001/24000s",
+      "crop": {
+       "x0": 0.19,
+       "y0": 0.02,
+       "x1": 0.345,
+       "y1": 0.24
+      }
+     },
+     {
+      "time": "2002/24000s",
+      "crop": {
+       "x0": 0.19,
+       "y0": 0.02,
+       "x1": 0.41000000000000003,
+       "y1": 0.24
+      }
+     },
+     {
+      "time": "3003/24000s",
+      "crop": {
+       "x0": 0.19,
+       "y0": 0.02,
+       "x1": 0.475,
+       "y1": 0.24
+      }
+     },
+     {
+      "time": "4004/24000s",
+      "crop": {
+       "x0": 0.19,
+       "y0": 0.02,
+       "x1": 0.54,
+       "y1": 0.24
+      }
+     },
+     {
+      "time": "5005/24000s",
+      "crop": {
+       "x0": 0.19,
+       "y0": 0.02,
+       "x1": 0.6050000000000001,
+       "y1": 0.24
+      }
+     },
+     {
+      "time": "6006/24000s",
+      "crop": {
+       "x0": 0.19,
+       "y0": 0.02,
+       "x1": 0.67,
+       "y1": 0.24
+      }
+     },
+     {
+      "time": "7007/24000s",
+      "crop": {
+       "x0": 0.19,
+       "y0": 0.02,
+       "x1": 0.735,
+       "y1": 0.24
+      }
+     },
+     {
+      "time": "8008/24000s",
+      "crop": {
+       "x0": 0.19,
+       "y0": 0.02,
+       "x1": 0.8,
+       "y1": 0.24
+      }
+     },
+     {
+      "time": "10010/24000s",
+      "opacity": 0.15
+     },
+     {
+      "time": "11011/24000s",
+      "opacity": 1
+     },
+     {
+      "time": "13013/24000s",
+      "opacity": 0.5
+     },
+     {
+      "time": "14014/24000s",
+      "opacity": 1
+     }
+    ]
+   }
+  },
+  {
+   "text": "YOURE A WINNER.",
+   "at": "42042/24000s",
+   "duration": "135135/24000s",
+   "lane": 4,
+   "style": {
+    "font": "Helvetica Neue",
+    "font_face": "Bold",
+    "font_size": 44,
+    "color": "#FFFFFF"
+   }
+  },
+  {
+   "text": "KEEP KILLING IT.",
+   "at": "177177/24000s",
+   "duration": "201201/24000s",
+   "lane": 4,
+   "style": {
+    "font": "Helvetica Neue",
+    "font_face": "Bold",
+    "font_size": 44,
+    "color": "#FFFFFF"
+   }
+  }
+ ],
+ "library": "/path/to/projects/Keep Killing It/Keep Killing It.fcpbundle",
+ "output_path": "/path/to/projects/Keep Killing It/Keep Killing It v4.fcpxml",
+ "import_into_fcp": false
+}
